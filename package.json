@@ -1,0 +1,7 @@
+{
+  "name": "weixinhost",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
