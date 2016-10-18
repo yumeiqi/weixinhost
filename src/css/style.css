@@ -60,12 +60,15 @@
 .footer{
     width: 100%;
     height:22.5rem;
+    float: left;
+    bottom:0px;
+
 }
 
 /*关于我们*/
 .about{
     width: 58%;
-    height: 70%;
+    height: 80%;
     margin-left: 21%;
 
 }
@@ -80,4 +83,84 @@
     font-size: 1.3rem;
     font-family: "Microsoft YaHei" ! important;
     line-height: 2.5rem;
+}
+
+/*合作伙伴*/
+.partners{
+    max-width: 90rem;   
+    margin-left: 26.5%;
+
+}
+
+
+.partners p{
+    margin-left: 37%;
+    font-size: 2.2rem;
+    line-height: 10rem;
+    font-family: "Microsoft YaHei" ! important;
+
+}
+.partners div{
+    max-width: 15%;
+    height: auto;
+    float: left;
+    text-align: center;
+    margin-right: 7.9%;
+    margin-bottom: 3rem;
+}
+
+@media(max-width:767px) {
+
+    .partners{   
+        margin-left: 15%;
+
+    }
+
+
+    .partners p{
+        margin-left: 28%;
+        font-size: 2.2rem;
+        line-height: 10rem;
+        font-family: "Microsoft YaHei" ! important;
+
+    }
+    
+    .partners div{
+        max-width: 25%;
+        height: auto;
+        float: left;
+        text-align: center;
+        margin-right: 5%;
+        margin-bottom: 3rem;
+    }
+}
+
+@media(max-width:480px) {
+    .partners{
+        max-width: 30rem;
+        margin-left: 20%;
+
+    }
+
+
+    .partners p{
+        margin-left: 25%;
+        font-size: 2.2rem;
+        line-height: 10rem;
+        font-family: "Microsoft YaHei" ! important;
+
+    }
+    
+    .partners div{
+        max-width: 40%;
+        height: auto;
+        float: left;
+        text-align: center;
+        margin-right: 7.3%;
+        margin-bottom: 3rem;
+    }
+}
+
+.partners div img{
+    max-width: 88%;
 }
