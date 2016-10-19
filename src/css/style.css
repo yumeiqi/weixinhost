@@ -2,21 +2,24 @@
 body{
     font-family: "Microsoft YaHei" ! important;
 }
+
+
+
 .nav_color{
     background-color: #3A87FD;
 }
-.nav_logo{
-    margin-top:1.4rem;
-    margin-left: 0.9rem;
-    float: left;
+// .nav_logo{
+//     margin-top:1.4rem;
+//     margin-left: 0.9rem;
+//     float: left;
     
-}
-.nav_nav{
-    float: left;
-}
-.login{
-    float: right;
-}
+// }
+// .nav_nav{
+//     float: left;
+// }
+// .login{
+//     float: right;
+// }
 
 /*中间内容*/
 .middle{
