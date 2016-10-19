@@ -1,33 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="weixinhostApp">
 <head>
   <meta charset="utf-8" />
-  <title>使用协议|侯斯特 微信公众号应用商店</title>
+  <title>使用协议 | 侯斯特 微信公众号应用商店</title>
   <meta name="description" content="app, web app, responsive, responsive layout, admin, admin panel, admin dashboard, flat, flat ui, ui kit, AngularJS, ui route, charts, widgets, components" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <link rel="stylesheet" href="css/style.css" type="text/css" />
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
   <link rel="stylesheet" href="css/animate.css" type="text/css" />
-  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
-  <link rel="stylesheet" href="css/simple-line-icons.css" type="text/css" />
-  <link rel="stylesheet" href="css/font.css" type="text/css" />
-  <link rel="stylesheet" href="css/app.css" type="text/css" />
+  
 </head>
 <body>
   <div class="app app-header-fixed" id="app">
-    <div class="app-header navbar nav_color">
-      <a href="#" class="navbar-brand nav_logo">
-        <img src="img/logo_02.png" alt="."  >
-      </a>
-      <span>产品方案</span>
-      <span>客户案例</span>
-      <span>服务价格</span>
-      <span>渠道代理</span>
-      <span>帮助中心</span>
-      <div class="login">
-        <span>登陆</span>
-        <span>注册</span>
-      </div>
+    
+    <div ng-controller="title">
+      <div ng-include="'title.html'"></div>
     </div>
     <div class="about">
         <p id="about_title">使用协议</p>
@@ -140,4 +127,7 @@
   
  
 </body>
+
+  <script type="text/javascript" src="lib/angular/angular.min.js" charset="utf-8"></script>
+  <script type="text/javascript" src="js/app.js" charset="utf-8"></script>
 </html>
