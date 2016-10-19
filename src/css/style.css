@@ -187,7 +187,7 @@ body{
     float: left;
 }
 
-#market_i{
+.market_i{
     width: 2.5rem;
     height: 2.5rem;
     background-image: url("../img/fit@3x.png");
