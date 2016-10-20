@@ -61,7 +61,7 @@ module.exports = function(grunt) {      // Project configuration.
 
         watch:{
             html: {
-                files:['src/index.html'],
+                files:['src/*.html'],
                 tasks:['htmlhint']
             },
 
