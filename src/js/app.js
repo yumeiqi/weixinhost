@@ -17,10 +17,14 @@ app.config(function($stateProvider, $urlRouterProvider) {
 
     $stateProvider
 
+
+
+
     .state('tab', {
         url: '/tab',
         abstract: true,
-        templateUrl: 'tab.html',
+        // templateUrl: 'tab.html',
+        template:'<div ui-view></div>',
         // controller: "aboutCtrl"
     })
 
@@ -52,7 +56,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
         // controller: "termCtrl"
     })
 
-    $urlRouterProvider.otherwise('tab/index');
+    $urlRouterProvider.otherwise('/tab/index');
 
 
 })
